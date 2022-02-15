@@ -5,4 +5,4 @@
     that you need for your experiment. 
     
         def data_collect() saves the data in a сsv file and sends it to amazon S3 bucket every 30 min.
-    This "put object" operation will trigger Lambda that will create the plots and send them to my email.
+    This "put object" operation will trigger Lambda that will create the plots and send them to email.
