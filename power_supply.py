@@ -1,5 +1,4 @@
 import power_supply_functions as psf
-import PS-to-sql as sql
 
 """Set parameters for your electrochemical experiment"""
 
@@ -38,5 +37,3 @@ jpg_file_name = psf.visualisation(path, file_name, current, voltage, time)
 
 #this function sent .jpg to s3 bucket
 psf.put_file_to_s3(jpg_file_name, bucket, path)
-
-#this function load data to DataBase
